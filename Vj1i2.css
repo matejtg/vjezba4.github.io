@@ -1,0 +1,55 @@
+/*Selector {
+	Property: value;
+}*/
+
+p {
+	color: rgba(255, 236, 170, 0.7);
+}
+
+body {
+	font-size: 100%;
+	background-color: rgb(76, 104, 139);
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.uredi {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: "Times New Roman", Georgia;
+}
+
+.naslov {
+	font-size: 180%;
+	font-style: italic;
+	font-family: "Sofia", sans-serif;;
+}
+
+div > p {
+	color: rgba(114, 140, 166, 1.0);
+}
+
+li:first-of-type {
+  color: rgba(197, 98, 119, 1.0);
+}
+
+h1:hover {
+  cursor: pointer ;
+  background-color: rgba(197, 98, 119, 1.0);
+}
+
+
+
+  
